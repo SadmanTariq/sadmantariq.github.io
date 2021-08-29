@@ -5,5 +5,5 @@
 * `npm run build`: Production build
 
 # Colorscheme:
-* Light: <span style="background:#f4f1ea;color:#34312c"> #f4f1ea </span>
-* Dark: <span style="background:#34312c;color:#f4f1ea"> #34312c </span>
+* Light: `#f4f1ea` ![#f4f1ea](https://via.placeholder.com/15/f4f1ea/000000?text=+)
+* Dark: `#34312c` ![#34312c](https://via.placeholder.com/15/34312c/000000?text=+)
