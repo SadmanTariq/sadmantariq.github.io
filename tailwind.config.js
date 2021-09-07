@@ -7,9 +7,9 @@ module.exports = {
         light: '#f4f1ea',
         dark: '#34312c'
       }
-  },
-  variants: {
-    extend: {}
+    },
+    variants: {
+      extend: {}
     }
   },
   plugins: []

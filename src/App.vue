@@ -1,23 +1,20 @@
 <script setup>
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-// import HelloWorld from './components/HelloWorld.vue';
-import Header from './components/Header.vue';
+import Title from './components/Title.vue';
+import Section from './components/Section.vue';
 </script>
 
 <template>
-  <!-- <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" /> -->
-  <Header />
+<Title />
+<div class="md:mx-12">
+  <Section title="KoalaSDevs" href="https://koalasdevs.itch.io/">
+    <div class="p-3">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam eaque ullam reprehenderit deleniti ad cumque est fuga, eos, enim qui optio iste dolorem eum sed totam laudantium? Facilis doloribus necessitatibus ipsa quo. Beatae recusandae, maxime commodi aspernatur, cumque praesentium temporibus, soluta quos ducimus suscipit aliquid tenetur quidem tempore quisquam repudiandae?
+    </div>
+    <Section light-bg title="Asdffdas">
+      <div class="p-3">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam eaque ullam reprehenderit deleniti ad cumque est fuga, eos, enim qui optio iste dolorem eum sed totam laudantium? Facilis doloribus necessitatibus ipsa quo. Beatae recusandae, maxime commodi aspernatur, cumque praesentium temporibus, soluta quos ducimus suscipit aliquid tenetur quidem tempore quisquam repudiandae?
+      </div>
+    </Section>
+  </Section>
+</div>
 </template>
-
-<style>
-/* #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-} */
-</style>

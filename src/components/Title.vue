@@ -1,9 +1,5 @@
 <template>
-<div class="
-    md:container md:mx-auto md:shadow-md
-    py-12 justify-center bg-light
-    flex flex-row flex-wrap gap-8
-">
+<div class="flex flex-row flex-wrap gap-8 justify-center pt-24 pb-12">
     <img
         src="../assets/logo.png" alt=""
         class="rounded-full border-32 border-dark h-32 w-32 my-auto"
@@ -12,7 +8,7 @@
 </div>
 </template>
 
-<style scoped>
+<style>
 .border-32 {
     border-width: 8px;
 }
