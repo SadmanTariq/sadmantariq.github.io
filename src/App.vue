@@ -4,6 +4,7 @@ import Section from './components/Section.vue';
 </script>
 
 <template>
+<!-- TODO: lowres logo -->
 <Title />
 <div class="md:mx-12">
   <Section title="KoalaSDevs" href="https://koalasdevs.itch.io/">
