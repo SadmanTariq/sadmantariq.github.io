@@ -10,7 +10,7 @@ const textColor = props.lightBg ? 'text-dark' : 'text-light';
 </script>
 
 <template>
-<div :class="`px-3 rounded-t-md shadow-md ${bgColor} ${textColor} max-w-max text-lg`">
+<div v-if="title" :class="`px-3 rounded-t-md shadow-md ${bgColor} ${textColor} max-w-max text-lg`">
   <a :href="href" target="_blank">
     <span :class="href ? 'underline' : ''">{{ title.toUpperCase() }}</span>
     <i v-if="href" class="fas fa-link ml-1" />
@@ -18,6 +18,5 @@ const textColor = props.lightBg ? 'text-dark' : 'text-light';
 </div>
 <div :class="`rounded-tr-md shadow-md ${bgColor} ${textColor}`">
   <slot />
-  <slot name='next' />
 </div>
 </template>
