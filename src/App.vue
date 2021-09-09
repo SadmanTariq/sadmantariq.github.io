@@ -15,9 +15,20 @@ import GithubLink from './components/GithubLink.vue';
         class="border-8 border-light w-1/2 my-4 mx-auto rounded-xl p-2
                sm:w-24 sm:h-24 sm:m-2"
       >
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam eaque ullam reprehenderit deleniti ad cumque est fuga, eos, enim qui optio iste dolorem eum sed totam laudantium? Facilis doloribus necessitatibus ipsa quo. Beatae recusandae, maxime commodi aspernatur, cumque praesentium temporibus, soluta quos ducimus suscipit aliquid tenetur quidem tempore quisquam repudiandae?
+      <div>
+        This is the team that me and my friends formed. We develop games and participate in game jams.
+        <br>
+        Our core team members:
+        <ul class="list-disc list-inside ml-2">
+          <li>Me, as the team leader and lead programmer</li>
+          <li>Rikth Humayun, game and level designer</li>
+          <li><a href="https://github.com/masrur-mmrs/">Masrur Sakib</a>, UI designer</li>
+          <li>Tahmid Abrar, artist</li>
+          <li>Tashfin Ruaid, composer</li>
+        </ul>
+      </div>
     </div>
-    <Section light-bg title="Asdffdas">
+    <Section light-bg title="Our games">
       <div class="p-3">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam eaque ullam reprehenderit deleniti ad cumque est fuga, eos, enim qui optio iste dolorem eum sed totam laudantium? Facilis doloribus necessitatibus ipsa quo. Beatae recusandae, maxime commodi aspernatur, cumque praesentium temporibus, soluta quos ducimus suscipit aliquid tenetur quidem tempore quisquam repudiandae?
       </div>

@@ -11,8 +11,8 @@ const textColor = props.lightBg ? 'text-dark' : 'text-light';
 
 <template>
 <div v-if="title" :class="`px-3 rounded-t-md shadow-md ${bgColor} ${textColor} max-w-max text-lg`">
-  <a :href="href" target="_blank">
-    <span :class="href ? 'underline' : ''">{{ title.toUpperCase() }}</span>
+  <a :class="href ? 'underline' : 'no-underline'" :href="href" target="_blank">
+    <span>{{ title.toUpperCase() }}</span>
     <i v-if="href" class="fas fa-link ml-1" />
   </a>
 </div>
