@@ -2,6 +2,9 @@
 import Title from './components/Title.vue';
 import Section from './components/Section.vue';
 import GithubLink from './components/GithubLink.vue';
+import Card from './components/Card.vue';
+import restrainedThumbnail from './assets/games/restrained_logo.png';
+import duskbearerThumbnail from './assets/games/duskbearer_logo.png';
 </script>
 
 <template>
@@ -29,8 +32,29 @@ import GithubLink from './components/GithubLink.vue';
       </div>
     </div>
     <Section light-bg title="Our games">
-      <div class="p-3">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam eaque ullam reprehenderit deleniti ad cumque est fuga, eos, enim qui optio iste dolorem eum sed totam laudantium? Facilis doloribus necessitatibus ipsa quo. Beatae recusandae, maxime commodi aspernatur, cumque praesentium temporibus, soluta quos ducimus suscipit aliquid tenetur quidem tempore quisquam repudiandae?
+      <div class="p-3 flex flex-row flex-wrap justify-center content-start gap-5 bg-light">
+        <Card
+          heading="Lost Emotions"
+          image-src="https://img.itch.zone/aW1hZ2UvNzM5MzUxLzQxMTgzMzcucG5n/347x500/jE4A4b.png"
+          href="https://koalasdevs.itch.io/lost-emotions"
+        >
+          Metroidvania platformer. <br>
+          Made for <a href="https://itch.io/jam/pb-game-jam-5">PB Game Jam 5</a>.
+        </Card>
+        <Card
+          heading="Restrained"
+          :image-src="restrainedThumbnail"
+          href="https://koalasdevs.itch.io/restrained"
+        >
+          Made for <a href="https://itch.io/jam/gmtk-2020">GMTK Game Jam 2020</a> under the theme "out of control".
+        </Card>
+        <Card
+          heading="Duskbearer"
+          :image-src="duskbearerThumbnail"
+          href="https://koalasdevs.itch.io/duskbearer"
+        >
+          Retro action adventure game made for <a href="https://itch.io/jam/godot-wild-jam-22">Godot Wild Jam #22</a>.
+        </Card>
       </div>
     </Section>
   </Section>
