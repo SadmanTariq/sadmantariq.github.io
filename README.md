@@ -1,4 +1,5 @@
 # [sadmantariq.github.io](https://sadmantariq.github.io/)
+Personal portfolio site made with vite, vuejs and tailwindcss.
 
 # Scripts:
 * `npm run dev`: Local development server
