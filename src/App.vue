@@ -32,7 +32,7 @@ import duskbearerThumbnail from './assets/games/duskbearer_logo.png';
       </div>
     </div>
     <Section light-bg title="Our games">
-      <div class="p-3 flex flex-row flex-wrap justify-center content-start gap-5 bg-light">
+      <div class="p-8 flex flex-col sm:flex-row justify-center content-start gap-5 bg-light px-14">
         <Card
           heading="Lost Emotions"
           image-src="https://img.itch.zone/aW1hZ2UvNzM5MzUxLzQxMTgzMzcucG5n/347x500/jE4A4b.png"
